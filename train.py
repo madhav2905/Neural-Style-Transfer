@@ -5,7 +5,6 @@ from torch.utils.data import DataLoader
 from dataset import StyleTransferDataset
 from model import AdaINStyleTransferNet
 
-
 # Loss helper functions
 def calc_mean_std(feat, eps=1e-5):
     """Calculates channel-wise mean and standard deviation for style loss"""

@@ -4,7 +4,6 @@ from PIL import Image
 from torch.utils.data import Dataset
 from torchvision import transforms
 
-
 class StyleTransferDataset(Dataset):
     def __init__(self, content_dir, style_dir, image_size=256):
         self.content_dir = content_dir
